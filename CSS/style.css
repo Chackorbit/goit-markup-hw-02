@@ -5,6 +5,10 @@
   --ptimary-white-color: #fff;
 }
 
+ul {
+  list-style: none;
+}
+
 h2,
 h3 {
   font-family: Roboto;
@@ -12,6 +16,7 @@ h3 {
 }
 
 body {
+  font-family: Roboto;
   background-color: #fff;
 }
 
@@ -150,4 +155,56 @@ body {
 .adres .link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+/* Портфолио */
+
+/* Фильтр */
+a {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  text-decoration-color: var(--brand-color);
+}
+
+.filtr {
+  display: flex;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.portfolio .button {
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: var(--ptimary-white-color);
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+
+.cards .card-header {
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+
+  letter-spacing: 0.06em;
+}
+
+.cards .card-tittle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.03em;
+  color: #757575;
 }
