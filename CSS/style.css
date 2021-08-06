@@ -1,0 +1,153 @@
+:root {
+  --p-text-color: #757575;
+  --brand-color: #2196f3;
+  --h-text-color: #212121;
+  --ptimary-white-color: #fff;
+}
+
+h2,
+h3 {
+  font-family: Roboto;
+  font-weight: 700;
+}
+
+body {
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* site nav */
+.logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--brand-color);
+}
+
+.site-nav a {
+  color: var(--h-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: var(--brand-color);
+}
+
+.contacts a {
+  color: var(--p-text-color);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+.contacts a:hover,
+.contacts a:focus {
+  color: var(--brand-color);
+}
+
+/* Решения для бизнеса */
+.hero .heading {
+  color: var(--ptimary-white-color);
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.hero {
+  background-color: #2f303a;
+}
+
+.button {
+  color: var(--ptimary-white-color);
+  background-color: var(--brand-color);
+
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* Преимущества */
+.list .tittle {
+  color: var(--p-text-color);
+}
+
+.benefits .header {
+  font-size: 14px;
+  line-height: 1.2;
+}
+
+.benefits .tittle {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* Чем занимаемся */
+.work .header {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Наша команда */
+.team .header {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.list .tittle {
+  color: var(--p-text-color);
+}
+
+.list .name {
+  color: var(--h-text-color);
+}
+
+/* Футер */
+.footer {
+  background-color: #2f303a;
+}
+
+.adres {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.adres .place {
+  color: var(--ptimary-white-color);
+}
+
+.adres .link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
