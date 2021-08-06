@@ -160,12 +160,12 @@ body {
 /* Портфолио */
 
 /* Фильтр */
-a {
+.portfolio a {
   text-decoration: none;
 }
 
-a:hover,
-a:focus {
+.portfolio a:hover,
+.portfolio a:focus {
   text-decoration: underline;
   text-decoration-color: var(--brand-color);
 }
