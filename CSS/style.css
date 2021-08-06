@@ -94,6 +94,11 @@ body {
   text-align: center;
 }
 
+.hero .button:hover,
+.hero .button:focus {
+  cursor: pointer;
+}
+
 /* Преимущества */
 .list .tittle {
   color: var(--p-text-color);
