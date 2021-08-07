@@ -3,6 +3,7 @@
   --brand-color: #2196f3;
   --h-text-color: #212121;
   --ptimary-white-color: #fff;
+  --background-color-foot-and-hero: #2f303a;
 }
 
 ul {
@@ -20,6 +21,10 @@ body {
   background-color: #fff;
 }
 
+button {
+  font-family: Roboto;
+}
+
 .list {
   list-style: none;
 }
@@ -31,11 +36,17 @@ body {
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
+  color: var(--h-text-color);
+}
+
+.web {
+  color: var(--brand-color);
 }
 
 .logo:hover,
 .logo:focus {
   color: var(--brand-color);
+  text-decoration: underline;
 }
 
 .site-nav a {
@@ -65,7 +76,7 @@ body {
   color: var(--brand-color);
 }
 
-/* Решения для бизнеса */
+/* Герой */
 .hero .heading {
   color: var(--ptimary-white-color);
   font-family: Roboto;
@@ -79,7 +90,7 @@ body {
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color-foot-and-hero);
 }
 
 .button {
@@ -144,7 +155,7 @@ body {
 
 /* Футер */
 .footer {
-  background-color: #2f303a;
+  background-color: var(--background-color-foot-and-hero) ы;
 }
 
 .adres {
@@ -185,8 +196,14 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+
+.filtr .button.all {
+  color: var(--ptimary-white-color);
+  background-color: var(--brand-color);
+}
+
 .portfolio .button {
-  color: #212121;
+  color: var(--h-text-color);
   background-color: #f5f4fa;
 }
 
@@ -200,7 +217,7 @@ body {
 .cards .card-header {
   font-size: 18px;
   line-height: 2;
-  color: #212121;
+  color: var(--h-text-color);
 
   letter-spacing: 0.06em;
 }
@@ -211,5 +228,5 @@ body {
   line-height: 1.87;
 
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--p-text-color);
 }
