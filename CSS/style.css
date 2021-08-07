@@ -32,7 +32,7 @@ button {
 /* site nav */
 .logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
   text-decoration: none;
@@ -41,12 +41,6 @@ button {
 
 .logo .web {
   color: var(--brand-color);
-}
-
-.logo:hover,
-.logo:focus {
-  color: var(--brand-color);
-  text-decoration: underline;
 }
 
 .site-nav a {
@@ -93,7 +87,7 @@ button {
   background-color: var(--background-color-foot-and-hero);
 }
 
-.button {
+.hero .button {
   color: var(--ptimary-white-color);
   background-color: var(--brand-color);
 
