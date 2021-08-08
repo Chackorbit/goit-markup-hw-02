@@ -150,6 +150,7 @@ button {
 /* Футер */
 .footer {
   background-color: var(--background-color-foot-and-hero);
+  text-decoration: none;
 }
 
 .studio {
@@ -163,6 +164,7 @@ button {
 }
 
 .adres .place {
+  font-family: Roboto;
   color: var(--ptimary-white-color);
 }
 
