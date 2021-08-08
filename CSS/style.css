@@ -159,18 +159,19 @@ button {
 
 .adres {
   font-family: Roboto;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  text-decoration: none;
 }
 
 .adres .place {
-  font-family: Roboto;
   color: var(--ptimary-white-color);
+  text-decoration: none;
 }
 
 .adres .link {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 /* Портфолио */
