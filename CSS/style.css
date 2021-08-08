@@ -149,7 +149,11 @@ button {
 
 /* Футер */
 .footer {
-  background-color: var(--background-color-foot-and-hero) ы;
+  background-color: var(--background-color-foot-and-hero);
+}
+
+.studio {
+  color: var(--ptimary-white-color);
 }
 
 .adres {
